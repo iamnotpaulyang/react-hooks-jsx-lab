@@ -22,7 +22,7 @@ test("renders a <h2> with the text 'About Me'", () => {
 
   // find an element with the text content "About Me"
   const h2 = screen.queryByText("About Me");
-
+  console.log(h2)
   // check that it's a <h2> element
   expect(h2.tagName).toBe("H2");
 });
